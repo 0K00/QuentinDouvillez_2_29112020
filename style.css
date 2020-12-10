@@ -357,7 +357,7 @@ a {
 }
 
 .l-pop, .l-main {
-  background-color: #F2F2F2;
+  background-color: var(--third-color);
   border-radius: 1.5rem;
   padding: 2rem;
 }
@@ -385,7 +385,7 @@ a {
   background-color: white;
   padding: 0.375rem;
   border-radius: 1.25rem;
-  box-shadow: 0 0 16px #0000002e;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
   transition-duration: 0.1s;
   cursor: pointer;
   box-sizing: border-box;
@@ -429,10 +429,10 @@ a {
   margin: 0 0.75rem 0.25rem 0.75rem;
 }
 .l-m-b-s-icon[data-active=true] {
-  color: #0065FC;
+  color: var(--primary-color);
 }
 .l-m-b-s-icon[data-active=false] {
-  color: #d9d9d9;
+  color: var(--third-color);
 }
 .l-m-more {
   font-weight: bold;
