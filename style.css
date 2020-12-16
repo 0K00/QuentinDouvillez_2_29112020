@@ -170,9 +170,18 @@ a {
     margin: 0 auto;
 }
 
+.f-info {
+  display: none;
+}
+
 .text-filter {
     margin-top: 25px;
     margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.text-filter h1 {
+  font-size: 1.5em;
 }
 
 .gps-icon {
@@ -280,6 +289,10 @@ a {
 
 .search-filter h1 {
   font-size: 20px;
+}
+
+.search-filter-tilte {
+ font-size: 1.3em;
 }
 
 .search-filter-input {
@@ -434,6 +447,7 @@ a {
 
 .l-m-b-fig-title {
   margin: 0.25rem 0.75rem 0 0.75rem;
+  font-size: 1.1em;
 }
 
 .l-m-b-text {
@@ -693,7 +707,7 @@ footer {
   grid-area: prop;
 }
 
-.footer-link h1 {
+.footer-link h2 {
   font-size: 18px;
 }
 
