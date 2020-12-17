@@ -12,6 +12,10 @@
     margin-right: 0;
 }
 
+body {
+    margin-bottom: 0;
+}
+
 h1 {
     padding:0;
     margin: 0;
@@ -170,10 +174,6 @@ a {
     margin: 0 auto;
 }
 
-.f-info {
-  display: none;
-}
-
 .text-filter {
     margin-top: 25px;
     margin-bottom: 15px;
@@ -279,7 +279,6 @@ a {
 
 
 .search-filter {
-  align-items: center;
   max-width: 1440px;
   margin-top: 20px;
   display: flex;
@@ -287,12 +286,16 @@ a {
   align-content: space-around;
 }
 
-.search-filter h1 {
-  font-size: 20px;
+.search-filter-tilte {
+  font-size: 1.3em;
+  display: flex;
 }
 
-.search-filter-tilte {
- font-size: 1.3em;
+@media (max-width: 375px) {
+  .search-filter {
+    display: flex;
+    flex-flow: column;
+  }
 }
 
 .search-filter-input {

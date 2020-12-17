@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Reservia - Marseille, France</title>
+  <link rel="icon" href="img/logo.svg" />
+  <meta name="description" content="Reservia est un site de location saisonière.">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://kit.fontawesome.com/341394d1af.js" crossorigin="anonymous"></script>
@@ -20,9 +22,8 @@
 <div class="filter" id="filter">
     <div class="text-filter"><h1>Trouvez votre hébergement pour des vacances de rêve</h1>En plein centre ville ou en pleine nature</div>
     <div class="search-nav">
-    <label class="gps"><span class="gps-icon fas fa-map-marker-alt"></span></label>
-    <label for="info" class="f-info">Marseille, France</label>
-    <input type="label" name="info" class="search" placeholder="Marseille, France">
+    <label class="gps" for="info"><span class="gps-icon fas fa-map-marker-alt"></span></label>
+    <input type="text" name="info" class="search" id="info" value="Marseille, France">
     <button type="submit" class="button-search">
       <span class="search-submit-text">Rechercher</span>
        <span class="fas fa-search" id="search-submit-icon"></span>
@@ -63,7 +64,7 @@
 <section class="lodging" id="lodging">
   <div class="l-main">
     <header class="l-m-header">
-      <h2 class="l-m-h-title">Hébergement à Marseille</h2>
+      <h2 class="l-m-h-title">Hébergements à Marseille</h2>
     </header>
     <article class="l-m-box">
       <a href="">
@@ -201,7 +202,7 @@
   </div>
 
   <aside class="l-pop">
-    <h2 class="l-p-title">Les plus populaire <span class="fas fa-chart-line"></span></h2>
+    <h2 class="l-p-title">Les plus populaires<span class="fas fa-chart-line"></span></h2>
     <article class="l-m-box l-p-box">
       <a class="l-p-content" href="">
         <div class="l-p-c-img">
