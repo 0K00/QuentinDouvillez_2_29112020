@@ -286,13 +286,6 @@ a {
   align-content: space-around;
 }
 
-.search-filter-box {
-  max-width: 1440px;
-  display: flex;
-  flex-flow: row wrap;
-  align-content: space-around;
-}
-
 .search-filter-tilte {
   font-size: 1.3em;
   display: flex;
